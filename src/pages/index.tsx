@@ -10,7 +10,7 @@ const Home: FC = () => {
   return (
     <>
       <SEO />
-      <main className="w-full">
+      <main className="w-full z-0" data-testid="boxContainer">
         <BoxContainer />
       </main>
     </>

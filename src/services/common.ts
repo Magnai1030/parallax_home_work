@@ -2,7 +2,7 @@ import { lorelei } from "@dicebear/collection";
 import { createAvatar } from "@dicebear/core";
 import { BoxData } from "@types";
 
-import { MAX_SIZE, MAX_VELOCITY, MIN_SIZE, MIN_VELOCITY } from "src/constants";
+import { MAX_SIZE, MAX_VELOCITY, MIN_SIZE, MIN_VELOCITY } from "@constants";
 
 // Generate one box default data
 export const generateRandomBox = (): BoxData => {
